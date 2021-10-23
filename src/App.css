@@ -1,6 +1,5 @@
 body {
   background-image: linear-gradient(#000, #001d00);
   font-family: 'Lato', sans-serif;
-  height: 100vh;
-  overflow: none;
+  min-height: 100vh;
 }
