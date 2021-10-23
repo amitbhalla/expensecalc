@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Expenses from './components/Expenses/Expenses';
-import './App.css';
 import NewExpense from './components/NewExpense/NewExpense';
+import CopyRights from './components/Misc/CopyRights';
+import './App.css';
 
 const expenses = [
   {
@@ -39,7 +40,7 @@ const App = () => {
     <div className="App">
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
-      <p class="copy">Built in React with ❤️ by Amit</p>
+      <CopyRights />
     </div>
   );
 };
