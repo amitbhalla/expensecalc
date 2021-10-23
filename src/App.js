@@ -39,6 +39,7 @@ const App = () => {
     <div className="App">
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
+      <p class="copy">Built in React with ❤️ by Amit</p>
     </div>
   );
 };

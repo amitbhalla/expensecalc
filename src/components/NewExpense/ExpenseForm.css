@@ -1,4 +1,5 @@
 .new-expense__controls {
+  color: white;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -15,7 +16,7 @@
 .new-expense__control input {
   font: inherit;
   padding: 0.5rem;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 1px solid #ccc;
   width: 20rem;
   max-width: 100%;
