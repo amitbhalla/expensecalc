@@ -5,7 +5,7 @@ import './ExpensesList.css';
 
 const ExpensesList = (props) => {
   if (props.items.length === 0) {
-    return <p className="empty">WOW! Such empty.</p>;
+    return <p className="expenses-list__fallback">WOW! Such empty.</p>;
   }
 
   return (
